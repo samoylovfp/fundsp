@@ -20,7 +20,7 @@ num-complex = { version = "0.4.6", default-features = false, features = ["libm"]
 tinyvec = { version = "1.9.0", features = ["alloc"] }
 hashbrown = "0.15.4"
 microfft = { version = "0.6.0", features = ["size-32768"] }
-funutd = { git = "https://github.com/tomara-x/funutd", default-features = false }
+funutd = { git = "https://github.com/samoylovfp/funutd", rev="99aae784e8d320e5f8f5dccc21e2e17d11d3e234", default-features = false }
 thingbuf = { version = "0.1.6", default-features = false, features = ["alloc"] }
 once_cell = { version = "1.21.3", default-features = false, features = ["race", "alloc"] }
 symphonia = { version = "0.5.4", optional = true, features = ["all"] }
